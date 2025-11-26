@@ -2,8 +2,8 @@ use std::env;
 
 pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
     /*
-        283. Move Zeroes (Easy)
-        https://leetcode.com/problems/move-zeroes/description/
+        26. Remove Duplicates from Sorted Array
+        https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
     */
     if nums.len() <= 1 {
         return nums.len() as i32;
